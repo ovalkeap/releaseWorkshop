@@ -16,9 +16,9 @@
 	</parent>
 	
 	<scm>
-	    <connection>scm:git:git@github.com:kauppalehti/<projektin nimi>.git</connection>
-	    <developerConnection>scm:git:git@github.com:kauppalehti/<projektin nimi>.git</developerConnection>
-	    <url>https://github.com/kauppalehti/<projektin nimi></url>
+	    <connection>scm:git:git@github.com:kauppalehti/releaseWorkshop-onni.git</connection>
+	    <developerConnection>scm:git:git@github.com:kauppalehti/releaseWorkshop-onni.git</developerConnection>
+	    <url>https://github.com/kauppalehti/releaseWorkshop-onni</url>
 	</scm>
 
 	<dependencies>
