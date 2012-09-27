@@ -10,6 +10,7 @@ public class Account {
 	
 	public Account() {
 		this.id = idSequence.getAndIncrement();
+		String koe = "";
 		this.test = null;
 	}
 	
