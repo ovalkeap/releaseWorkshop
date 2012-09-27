@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fi.kauppalehti</groupId>
-	<artifactId>releaseWorkshop</artifactId>
+	<artifactId>releaseWorkshop-onni</artifactId>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>releaseWorkshop</name>
@@ -12,8 +12,14 @@
 	<parent>
 		<groupId>fi.kauppalehti.common</groupId>
 		<artifactId>common-parent</artifactId>
-		<version>1.2-SNAPSHOT</version>
+		<version>1.3</version>
 	</parent>
+	
+	<scm>
+	    <connection>scm:git:git@github.com:kauppalehti/<projektin nimi>.git</connection>
+	    <developerConnection>scm:git:git@github.com:kauppalehti/<projektin nimi>.git</developerConnection>
+	    <url>https://github.com/kauppalehti/<projektin nimi></url>
+	</scm>
 
 	<dependencies>
 

@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class Account {
 
 	private final Long id;	
+	private final long test;
 	
 	public Account() {
 		this.id = idSequence.getAndIncrement();
