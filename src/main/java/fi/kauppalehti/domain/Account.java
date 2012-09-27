@@ -11,6 +11,7 @@ public class Account {
 	public Account() {
 		this.id = idSequence.getAndIncrement();
 		this.test = null;
+		String muutos = "";
 	}
 	
 	public Long getId() {
